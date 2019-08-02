@@ -1,0 +1,26 @@
+/* USERCHROME */
+
+/* New Tab Flash */
+:root {
+	--in-content-page-background: #181818;
+	--newtab-topsites-label-color: #e6e6e6
+}
+
+/* Change Flash Color On Tab Open */
+#browser vbox#appcontent tabbrowser,
+#content,
+#tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content]>html {
+	background: var(--in-content-page-background) !important
+}
+
+/* New-tab Text */
+.activity-stream .top-site-inner .title {
+	color: var(--newtab-topsites-label-color) !important;
+}
+
+/* Move Find Bar above the page*/
+.browserContainer>findbar {
+	-moz-box-ordinal-group: 0;
+}
