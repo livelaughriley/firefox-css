@@ -7,6 +7,8 @@
 }
 
 /* Change Flash Color On Tab Open */
+/* html:not(#ublock-epicker),
+html:not(#ublock0-epicker), */
 #browser vbox#appcontent tabbrowser,
 #content,
 #tabbrowser-tabpanels,

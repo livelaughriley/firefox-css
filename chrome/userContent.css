@@ -2,7 +2,10 @@
 url("about:blank"),
 url("about:newtab"),
 url("about:privatebrowsing") {
-    body {
+
+    html:not(#ublock0-epicker),
+    html:not(#ublock0-epicker) body,
+    #newtab-customize-overlay {
         background-color: #181818 !important
     }
 
@@ -37,39 +40,14 @@ url("about:privatebrowsing") {
     */
 }
 
-/*
-@-moz-document url("about:home"),
-url("about:newtab") {
-
-    .search-wrapper,
-    .tile {
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
-    }
-
-    .card-outer {
-        border-radius: 15px !important;
-        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
-    }
-
-    html {
-        height: 100% !important
-    }
-
-    .title,
-    .section-title span,
-    .topic,
-    .edit-topsites-wrapper .edit-topsites-button button {
-        color: #FFF !important;
-    }
-
-    .section-title span,
-    .prefs-pane-button button {
-        fill: #FFF !important;
-    }
-
-    .topic .topic-link,
-    .topic .topic-read-more {
-        color: #FFF !important;
-    }
-}
-*/
+/* 
+html#ublock0-epicker,
+#ublock0-epicker body {
+    background: transparent !important;
+    color: black !important;
+    font: 12px sans-serif !important;
+    height: 100% !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    width: 100% !important;
+} */
