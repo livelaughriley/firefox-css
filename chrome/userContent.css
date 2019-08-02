@@ -1,3 +1,7 @@
+/*                       */
+/*    USERCONTENT.CSS    */
+/*                       */
+
 @-moz-document url("about:home"),
 url("about:blank"),
 url("about:newtab"),
@@ -29,18 +33,36 @@ url("about:privatebrowsing") {
     }
 
     .collapsible-section.active {
-        background: #333333 !important;
+        background-color: transparent !important;
     }
 
-    /*
-    button,
-    input {
-        color: #FFF
+    .collapsible-section .section-top-bar .context-menu-button {
+        opacity: 0.5 !important;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
     }
-    */
+
+    .collapsible-section.active .section-top-bar .context-menu-button {
+        fill: #FFF !important;
+    }
+
+    .prefs-button button {
+        fill: #FFF !important;
+        opacity: 0.5 !important;
+        transition: opacity .2s ease-out;
+        -moz-transition: opacity .2s ease-out;
+    }
+
+    .prefs-button button:hover,
+    .prefs-button button:focus {
+        background-color: inherit !important;
+        opacity: 1.0 !important;
+        transition: opacity .2s ease-in;
+        -moz-transition: opacity .2s ease-in;
+    }
 }
 
-/* 
+/*
 html#ublock0-epicker,
 #ublock0-epicker body {
     background: transparent !important;
