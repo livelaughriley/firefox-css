@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "/Users/riley/Library/Application Support/Firefox/Profiles/9s0g7opr.default/chrome"
 		}
 	],
 	"settings": {}
