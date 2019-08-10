@@ -61,8 +61,11 @@ url("about:privatebrowsing") {
         -moz-transition: opacity .2s ease-in;
     }
 
-    .empty-state-message,
-    .empty-state-icon {
+    .sections-list .section-empty-state .empty-state .empty-state-icon {
+        fill: #DDD !important;
+    }
+
+    .empty-state-message {
         color: #DDD !important;
     }
 }
