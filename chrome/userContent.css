@@ -2,6 +2,17 @@
 /*    USERCONTENT.CSS    */
 /*                       */
 
+@namespace url("http://www.w3.org/1999/xhtml");
+
+:root {
+    scrollbar-color: #333 #888 !important;
+    scrollbar-width: thin !important;
+}
+
+* {
+    scrollbar-width: thin !important;
+}
+
 @-moz-document url("about:home"),
 url("about:blank"),
 url("about:newtab"),
