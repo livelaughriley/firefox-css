@@ -5,7 +5,7 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 :root {
-    scrollbar-color: #333 #888 !important;
+    scrollbar-color: #222 #444 !important;
     scrollbar-width: thin !important;
 }
 
