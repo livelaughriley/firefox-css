@@ -1,9 +1,24 @@
 /* USERCHROME */
 
+@namespace url(http://www.w3.org/1999/xhtml);
+
+.CodeMirror {
+    font-family: "SFL-Regular",
+        "FuraCodeNerdFontComplete-Retina",
+        "FuraCode NF Retina",
+        "Fira Code Retina",
+        "FiraCode-Retina",
+        "Roboto Mono for Powerline",
+        "Inconsolata-dz",
+        "hack", 
+        monospace;
+    font-size: 13pt !important;
+}
+
 /* New Tab Flash */
 :root {
-	--in-content-page-background: #181818;
-	--newtab-topsites-label-color: #e6e6e6
+    --in-content-page-background: #181818;
+    --newtab-topsites-label-color: #e6e6e6
 }
 
 /* Change Flash Color On Tab Open */
@@ -14,15 +29,15 @@ html:not(#ublock0-epicker), */
 #tabbrowser-tabpanels,
 browser[type=content-primary],
 browser[type=content]>html {
-	background: var(--in-content-page-background) !important
+    background: var(--in-content-page-background) !important
 }
 
 /* New-tab Text */
 .activity-stream .top-site-inner .title {
-	color: var(--newtab-topsites-label-color) !important;
+    color: var(--newtab-topsites-label-color) !important;
 }
 
 /* Move Find Bar above the page*/
 .browserContainer>findbar {
-	-moz-box-ordinal-group: 0;
+    -moz-box-ordinal-group: 0;
 }
