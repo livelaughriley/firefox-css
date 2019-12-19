@@ -3,16 +3,18 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 .CodeMirror {
-    font-family: "SFL-Regular",
+    font-family:
+        "SF Mono Plus",
+        "SFL-Regular",
         "FuraCodeNerdFontComplete-Retina",
         "FuraCode NF Retina",
         "Fira Code Retina",
         "FiraCode-Retina",
         "Roboto Mono for Powerline",
         "Inconsolata-dz",
-        "hack", 
+        "hack",
         monospace;
-    font-size: 13pt !important;
+    font-size: 15pt !important;
 }
 
 /* New Tab Flash */
