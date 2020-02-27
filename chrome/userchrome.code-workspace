@@ -1,11 +1,14 @@
 {
 	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "/Users/riley/Library/Application Support/Firefox/Profiles/xe39enyg.riley-1573429782931/chrome"
-		}
-	],
+        {
+            "path": "."
+        },
+        {
+            "path": "/Users/riley/Library/Application Support/Firefox/Profiles/xe39enyg.riley-1573429782931/chrome"
+        },
+        {
+            "path": "C:/Users/RRoach/AppData/Roaming/Mozilla/Firefox/Profiles/l5w4gzqn.riley-1573566147056/chrome"
+        }
+    ],
 	"settings": {}
 }
