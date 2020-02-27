@@ -6,12 +6,8 @@
 
 :root {
     scrollbar-color: #111 #333 !important;
-    scrollbar-width: thin !important;
 }
 
-* {
-    scrollbar-width: thin !important;
-}
 
 @-moz-document url("about:home"),
 url("about:blank"),
