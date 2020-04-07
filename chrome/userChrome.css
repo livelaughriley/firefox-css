@@ -39,6 +39,13 @@ browser[type=content]>html {
 	color: var(--newtab-topsites-label-color) !important;
 }
 
+/* Enlarge Search Bar Suggestions */
+#PopupSearchAutoComplete .autocomplete-richlistbox {
+	font-size: 1.2em !important;
+	line-height: 1.75 !important;
+}
+
+
 /* Move Find Bar above the page*/
 .browserContainer>findbar {
 	-moz-box-ordinal-group: 0;
