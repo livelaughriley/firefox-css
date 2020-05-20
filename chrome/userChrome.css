@@ -2,25 +2,10 @@
 
 /* @namespace url(http://www.w3.org/1999/xhtml); */
 
-.CodeMirror {
-	font-family:
-		"SF Mono Plus",
-		"SFL-Regular",
-		"FuraCodeNerdFontComplete-Retina",
-		"FuraCode NF Retina",
-		"Fira Code Retina",
-		"FiraCode-Retina",
-		"Roboto Mono for Powerline",
-		"Inconsolata-dz",
-		"hack",
-		monospace;
-	font-size: 15pt !important;
-}
-
 /* New Tab Flash */
 :root {
-	--in-content-page-background: #181818;
-	--newtab-topsites-label-color: #e6e6e6
+  --in-content-page-background: #181818;
+  --newtab-topsites-label-color: #e6e6e6;
 }
 
 /* Change Flash Color On Tab Open */
@@ -29,24 +14,23 @@ html:not(#ublock0-epicker), */
 #browser vbox#appcontent tabbrowser,
 #content,
 #tabbrowser-tabpanels,
-browser[type=content-primary],
-browser[type=content]>html {
-	background: var(--in-content-page-background) !important
+browser[type="content-primary"],
+browser[type="content"] > html {
+  background: var(--in-content-page-background) !important;
 }
 
 /* New-tab Text */
 .activity-stream .top-site-inner .title {
-	color: var(--newtab-topsites-label-color) !important;
+  color: var(--newtab-topsites-label-color) !important;
 }
 
 /* Enlarge Search Bar Suggestions */
 #PopupSearchAutoComplete .autocomplete-richlistbox {
-	font-size: 1.2em !important;
-	line-height: 1.75 !important;
+  font-size: 1.2em !important;
+  line-height: 1.75 !important;
 }
 
-
 /* Move Find Bar above the page*/
-.browserContainer>findbar {
-	-moz-box-ordinal-group: 0;
+.browserContainer > findbar {
+  -moz-box-ordinal-group: 0;
 }
