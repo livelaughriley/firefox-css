@@ -5,76 +5,74 @@
 @namespace url("http://www.w3.org/1999/xhtml");
 
 :root {
-    scrollbar-color: #111 #333 !important;
+  scrollbar-color: #111 #444 !important;
 }
-
 
 @-moz-document url("about:home"),
 url("about:blank"),
 url("about:newtab"),
 url("about:privatebrowsing") {
+  html:not(#ublock0-epicker),
+  html:not(#ublock0-epicker) body,
+  #newtab-customize-overlay {
+    background-color: #181818 !important;
+  }
 
-    html:not(#ublock0-epicker),
-    html:not(#ublock0-epicker) body,
-    #newtab-customize-overlay {
-        background-color: #181818 !important
-    }
+  .title,
+  .section-title span,
+  .topic,
+  .edit-topsites-wrapper .edit-topsites-button button {
+    color: #fff !important;
+    /*title color */
+  }
 
-    .title,
-    .section-title span,
-    .topic,
-    .edit-topsites-wrapper .edit-topsites-button button {
-        color: #FFF !important;
-        /*title color */
-    }
+  .section-title span,
+  .prefs-pane-button button {
+    fill: #fff !important;
+  }
 
-    .section-title span,
-    .prefs-pane-button button {
-        fill: #FFF !important;
-    }
+  .topic .topic-link,
+  .topic .topic-read-more {
+    color: #fff !important;
+    /*text color */
+  }
 
-    .topic .topic-link,
-    .topic .topic-read-more {
-        color: #FFF !important;
-        /*text color */
-    }
+  .collapsible-section.active {
+    background-color: transparent !important;
+  }
 
-    .collapsible-section.active {
-        background-color: transparent !important;
-    }
+  .collapsible-section .section-top-bar .context-menu-button {
+    opacity: 0.5 !important;
+    transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+  }
 
-    .collapsible-section .section-top-bar .context-menu-button {
-        opacity: 0.5 !important;
-        transition: opacity .2s ease-out;
-        -moz-transition: opacity .2s ease-out;
-    }
+  .collapsible-section.active .section-top-bar .context-menu-button {
+    fill: #fff !important;
+  }
 
-    .collapsible-section.active .section-top-bar .context-menu-button {
-        fill: #FFF !important;
-    }
+  .prefs-button button {
+    fill: #fff !important;
+    opacity: 0.5 !important;
+    transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+  }
 
-    .prefs-button button {
-        fill: #FFF !important;
-        opacity: 0.5 !important;
-        transition: opacity .2s ease-out;
-        -moz-transition: opacity .2s ease-out;
-    }
+  .prefs-button button:hover,
+  .prefs-button button:focus {
+    background-color: inherit !important;
+    opacity: 1 !important;
+    transition: opacity 0.2s ease-in;
+    -moz-transition: opacity 0.2s ease-in;
+  }
 
-    .prefs-button button:hover,
-    .prefs-button button:focus {
-        background-color: inherit !important;
-        opacity: 1.0 !important;
-        transition: opacity .2s ease-in;
-        -moz-transition: opacity .2s ease-in;
-    }
+  .sections-list .section-empty-state .empty-state .empty-state-icon {
+    fill: #ddd !important;
+  }
 
-    .sections-list .section-empty-state .empty-state .empty-state-icon {
-        fill: #DDD !important;
-    }
-
-    .empty-state-message {
-        color: #DDD !important;
-    }
+  .empty-state-message {
+    color: #ddd !important;
+  }
 }
 
 /*
