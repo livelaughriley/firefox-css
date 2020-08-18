@@ -10,5 +10,7 @@
             "path": "C:/Users/RRoach/AppData/Roaming/Mozilla/Firefox/Profiles/l5w4gzqn.riley-1573566147056/chrome"
         }
     ],
-	"settings": {}
+    "settings": {
+        "window.title": "${dirty}${activeEditorLong}"
+    }
 }

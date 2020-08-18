@@ -1,11 +1,13 @@
 /* USERCHROME */
 
-/* @namespace url(http://www.w3.org/1999/xhtml); */
-
-/* New Tab Flash */
 :root {
   --in-content-page-background: #181818;
   --newtab-topsites-label-color: #e6e6e6;
+  --font-family: San Francisco Text;
+}
+
+* {
+  font-family: var(--font-family) !important;
 }
 
 /* Change Flash Color On Tab Open */
